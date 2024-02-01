@@ -1,0 +1,293 @@
+{
+  "id": "Business_Portal_MenuItem",
+  "order": 2,
+  "objects": [
+    {
+      "id": "Business_Portal_MenuItem_Dashboard",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Dashboard",
+        "idenNo": "Business_Portal_MenuItem_Dashboard",
+        "type": "item",
+        "url": "/business/portal/dashboard/default",
+        "icon": "Dashboard",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Dashboard"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Sales",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Sales",
+        "idenNo": "Business_Portal_MenuItem_Sales",
+        "type": "item",
+        "url": "/business/portal/orders/sales",
+        "icon": "Sales",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Orders"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Purchase",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Purchase",
+        "idenNo": "Business_Portal_MenuItem_Purchase",
+        "type": "item",
+        "url": "/business/portal/orders/purchase",
+        "icon": "Purchase",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Orders"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_AccountBook",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Account Book",
+        "idenNo": "Business_Portal_MenuItem_AccountBook",
+        "type": "item",
+        "url": "/business/portal/accounting/accountbook",
+        "icon": "AccountBook",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Accounting"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_CashBook",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Cash Book",
+        "idenNo": "Business_Portal_MenuItem_CashBook",
+        "type": "item",
+        "url": "/business/portal/accounting/cashbook",
+        "icon": "CashBook",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Accounting"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Products",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Items",
+        "idenNo": "Business_Portal_MenuItem_Products",
+        "type": "item",
+        "url": "/business/portal/items/products",
+        "icon": "Products",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Items"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Customer",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Customer",
+        "idenNo": "Business_Portal_MenuItem_Customer",
+        "type": "item",
+        "url": "/business/portal/parties/customer",
+        "icon": "Customer",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Parties"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Supplier",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Supplier",
+        "idenNo": "Business_Portal_MenuItem_Supplier",
+        "type": "item",
+        "url": "/business/portal/parties/supplier",
+        "icon": "Supplier",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Parties"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Business",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Business",
+        "idenNo": "Business_Portal_MenuItem_Business",
+        "type": "item",
+        "url": "/business/portal/organizations/business",
+        "icon": "Business",
+        "onBoarding": true,
+        "menuGroup": "LK@Business_Portal_MenuGroup_Organizations"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Employee",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Employee",
+        "idenNo": "Business_Portal_MenuItem_Employee",
+        "type": "item",
+        "url": "/business/portal/organizations/employee",
+        "icon": "Employee",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Organizations"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Users",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Users",
+        "idenNo": "Business_Portal_MenuItem_Users",
+        "type": "item",
+        "url": "/business/portal/organizations/users",
+        "icon": "Users",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Organizations"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Category_Group",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Category Group",
+        "idenNo": "Business_Portal_MenuItem_Category_Group",
+        "type": "item",
+        "url": "/business/portal/setups/category/group",
+        "icon": "CategoryGroup",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Setups"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Category_List",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Category List",
+        "idenNo": "Business_Portal_MenuItem_Category_List",
+        "type": "item",
+        "url": "/business/portal/setups/category/list",
+        "icon": "CategoryList",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Setups"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Unit_Group",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Unit Group",
+        "idenNo": "Business_Portal_MenuItem_Unit_Group",
+        "type": "item",
+        "url": "/business/portal/setups/unit/group",
+        "icon": "UnitGroup",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Setups"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Unit_List",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Unit List",
+        "idenNo": "Business_Portal_MenuItem_Unit_List",
+        "type": "item",
+        "url": "/business/portal/setups/unit/list",
+        "icon": "UnitList",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Setups"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Currency_Group",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Currency Group",
+        "idenNo": "Business_Portal_MenuItem_Currency_Group",
+        "type": "item",
+        "url": "/business/portal/setups/currency/group",
+        "icon": "CurrencyGroup",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Setups"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Currency_List",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Currency List",
+        "idenNo": "Business_Portal_MenuItem_Currency_List",
+        "type": "item",
+        "url": "/business/portal/setups/currency/list",
+        "icon": "CurrencyList",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Setups"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_Count_Freq",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Count Freq",
+        "idenNo": "Business_Portal_MenuItem_Count_Freq",
+        "type": "item",
+        "url": "/business/portal/setups/count/freq",
+        "icon": "CountFreq",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Setups"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_User_SecurityCenter",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Security Center",
+        "idenNo": "Business_Portal_MenuItem_User_SecurityCenter",
+        "type": "item",
+        "url": "/business/portal/user/security",
+        "icon": "SecurityCenter",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Account"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_User_ProfileCenter",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "User Profile",
+        "idenNo": "Business_Portal_MenuItem_User_ProfileCenter",
+        "type": "item",
+        "url": "/business/portal/user/profile",
+        "icon": "ProfileCenter",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Account"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_User_PrivacyCenter",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Privacy Center",
+        "idenNo": "Business_Portal_MenuItem_User_PrivacyCenter",
+        "type": "item",
+        "url": "/business/portal/user/privacy",
+        "icon": "PrivacyCenter",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Account"
+      }
+    },
+    {
+      "id": "Business_Portal_MenuItem_User_OwnershipCenter",
+      "type": "com.brijframwork.authorization.model.menus.EOMenuItem",
+      "name": "Business_Portal_MenuItem",
+      "properties": {
+        "title": "Membership",
+        "idenNo": "Business_Portal_MenuItem_User_OwnershipCenter",
+        "type": "item",
+        "url": "/business/portal/user/membership",
+        "icon": "membership",
+        "menuGroup": "LK@Business_Portal_MenuGroup_Account"
+      }
+    }
+  ]
+}

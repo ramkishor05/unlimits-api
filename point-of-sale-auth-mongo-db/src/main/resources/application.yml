@@ -1,0 +1,105 @@
+spring:
+   profiles:
+     active: aws_rds
+   application:
+     name: point_of_sale_auth
+   main:
+     allow-bean-definition-overriding: true
+   data:
+     mongodb:
+       uri: mongodb+srv://ramkishor0509:Ram_9450@cluster0.7aluoj1.mongodb.net/point_of_sale_auth?ssl=true&authSource=admin&readWriteAnyDatabase=true&w=majority
+       database: point_of_sale_auth
+   db:
+     datajson:
+       upload: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+# HTTP Server (Tomcat) Port
+server: 
+  port: 2222
+logging.level.org.hibernate.SQL: DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+# Disable Spring Boot's "Whitelabel" default error page, so we can use our own
+error:
+  whitelabel:
+    enabled: true
+---    
+
+spring:
+   profiles: local
+   application:
+     name: point_of_sale_auth
+   main:
+     allow-bean-definition-overriding: true
+   sql.init.mode: always
+   datasource:
+     driverClassName: com.mysql.cj.jdbc.Driver
+     url: jdbc:mysql://localhost:3306/point_of_sale_auth
+     username: root
+     password: root
+     show-sql: true
+   jpa: 
+     hibernate: 
+       dialect: org.hibernate.dialect.MySQLDialect
+       ddl-auto: update
+       format_sql: true
+       show_sql: true
+       naming: 
+         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+   db:
+     datajson:
+       upload: true
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+# HTTP Server (Tomcat) Port
+server: 
+  port: 2222
+logging.level.org.hibernate.SQL: DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+# Disable Spring Boot's "Whitelabel" default error page, so we can use our own
+error:
+  whitelabel:
+    enabled: true
+---
+spring:
+   profiles: dev
+   application:
+     name: point_of_sale_auth
+   main:
+     allow-bean-definition-overriding: true
+   sql.init.mode: always
+   datasource:
+     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+     url: jdbc:sqlserver://pointofsale.database.windows.net:1433;database=point_of_sale_auth;user=ramkishor05@pointofsale;password=Ram@9450;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+     username: ramkishor05
+     password: Ram@9450
+     show-sql: true
+   jpa: 
+     hibernate: 
+       dialect: org.hibernate.dialect.MySQLDialect
+       ddl-auto: update
+       format_sql: true
+       show_sql: true
+       naming: 
+         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+# Discovery Server Access
+eureka:
+    client:
+      eureka-service-url-poll-interval-seconds: 100
+      serviceUrl:
+        defaultZone: http://localhost:1111/eureka/
+# HTTP Server (Tomcat) Port
+server: 
+  port: 2222
+logging.level.org.hibernate.SQL: DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+# Disable Spring Boot's "Whitelabel" default error page, so we can use our own
+error:
+  whitelabel:
+    enabled: true

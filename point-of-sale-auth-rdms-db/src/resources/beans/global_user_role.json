@@ -1,0 +1,83 @@
+{
+  "id": "GlobalUserRole",
+  "order": 1,
+  "objects": [
+    {
+      "id": "UserRole_ADMIN",
+      "type": "com.brijframwork.authorization.model.EOUserRole",
+      "name": "GlobalUserRole",
+      "properties": {
+        "position": 1,
+        "roleName": "admin",
+        "roleId": "ADMIN",
+        "roleType":"GLOBAL"
+      }
+    },
+    {
+      "id": "UserRole_CUSTOMER",
+      "type": "com.brijframwork.authorization.model.EOUserRole",
+      "name": "GlobalUserRole",
+      "properties": {
+        "position": 2,
+        "roleName": "Customer",
+        "roleId": "CUSTOMER",
+        "roleType":"APP"
+      }
+    },
+    {
+      "id": "UserRole_SUPPLIER",
+      "type": "com.brijframwork.authorization.model.EOUserRole",
+      "name": "GlobalUserRole",
+      "properties": {
+        "position": 3,
+        "roleName": "Supplier",
+        "roleId": "SUPPLIER",
+        "roleType":"APP"
+      }
+    },
+    {
+      "id": "UserRole_OWNER",
+      "type": "com.brijframwork.authorization.model.EOUserRole",
+      "name": "GlobalUserRole",
+      "properties": {
+        "position": 4,
+        "roleName": "Vendor",
+        "roleId": "VENDOR",
+        "roleType":"APP"
+      }
+    },
+    {
+      "id": "UserRole_MANAGER",
+      "type": "com.brijframwork.authorization.model.EOUserRole",
+      "name": "GlobalUserRole",
+      "properties": {
+         "position": 5,
+        "roleName": "Manager",
+        "roleId": "MANAGER",
+        "roleType":"VENDOR"
+      }
+    },
+    {
+      "id": "UserRole_SUPERVISOR",
+      "type": "com.brijframwork.authorization.model.EOUserRole",
+      "name": "GlobalUserRole",
+      "properties": {
+        "position": 6,
+        "roleName": "Supervisor",
+        "roleId": "SUPERVISOR",
+        "roleType":"VENDOR"
+      }
+    },
+    {
+      "id": "UserRole_CREW",
+      "type": "com.brijframwork.authorization.model.EOUserRole",
+      "name": "GlobalUserRole",
+      "properties": {
+        "position": 7,
+        "roleName": "Crew",
+        "roleId": "CREW",
+        "roleType":"VENDOR"
+      }
+    }
+  ]
+}
