@@ -32,6 +32,8 @@
 		<module>point-of-sale-crm</module>
 		<module>point-of-sale-item</module>
 		<module>point-of-sale-inventory</module>
+		<module>point-of-sale-payment</module>
+		<module>point-of-sale-ordering</module>
 	</modules>
 
 	<dependencies>
