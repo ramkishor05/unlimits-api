@@ -29,6 +29,7 @@
 		<module>point-of-sale-auth-rdms-db</module>
 		<module>point-of-sale-auth-mongo-db</module>
 		<module>point-of-sale-auth</module>
+		<module>point-of-sale-app</module>
 		<module>point-of-sale-crm</module>
 		<module>point-of-sale-item</module>
 		<module>point-of-sale-inventory</module>
