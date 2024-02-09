@@ -15,10 +15,10 @@ import com.brijframwork.authorization.model.menus.EOMenuGroup;
 @Transactional
 public interface MenuGroupRepository  extends MongoRepository<EOMenuGroup, Long>{
 
-	@Query(value="select * from MENU_GROUP UE where UE.TITLE = :title")
+	@Query(value="{TITLE : ?0}")
 	Optional<EOMenuGroup> findByTitle(@Param("title")String title);
 	
-	@Query(value="select * from MENU_GROUP UE where UE.URL = :url")
+	@Query(value="{URL : ?0")
 	Optional<EOMenuGroup> findByUrl(@Param("url")String url);
 
 	@Query(value="select * from MENU_GROUP UE where UE.TYPE = :type")
