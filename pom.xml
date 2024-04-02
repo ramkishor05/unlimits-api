@@ -7,34 +7,35 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.2.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<version>3.2.4</version>
+		<relativePath/>
+	<!--  lookup parent from repository  -->
 	</parent>
 
 	<groupId>com.brijframework</groupId>
-	<artifactId>point-of-sale-api</artifactId>
+	<artifactId>unlimits-api</artifactId>
 	<version>1.1</version>
 	<packaging>pom</packaging>
 
-	<name>point-of-sale-api</name>
+	<name>unlimits-api</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
+		<java.version>17</java.version>
+		<org.mapstruct.version>1.6.0.Beta1</org.mapstruct.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<spring-cloud.version>2023.0.1</spring-cloud.version>
 	</properties>
+
 	
 	<modules>
-		<module>point-of-sale-server</module>
-		<module>point-of-sale-gateway</module>
-		<module>point-of-sale-auth-rdms-db</module>
-		<module>point-of-sale-auth-mongo-db</module>
-		<module>point-of-sale-auth</module>
-		<module>point-of-sale-app</module>
-		<module>point-of-sale-crm</module>
-		<module>point-of-sale-item</module>
-		<module>point-of-sale-inventory</module>
-		<module>point-of-sale-payment</module>
-		<module>point-of-sale-ordering</module>
+		<module>unlimits-server</module>
+		<module>unlimits-gateway</module>
+		<module>unlimits-auth</module>
+		<module>unlimits-content</module>
+		<module>unlimits-integration</module>
 	</modules>
 
 	<dependencies>
@@ -46,6 +47,15 @@
 	</dependencies>
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<!-- or newer version -->
+				<configuration>
+					<source>${maven.compiler.source}</source> <!-- depending on your project -->
+					<target>${maven.compiler.target}</target> <!-- depending on your project -->
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
