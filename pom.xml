@@ -58,8 +58,6 @@
 
 		<module>unlimits-content</module>
 
-		<module>unlimits-integration</module>
-
 		<module>unlimits-forms</module>
 
 	</modules>
