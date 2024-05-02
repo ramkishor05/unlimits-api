@@ -85,9 +85,9 @@
 		<!--
 		https://mvnrepository.com/artifact/io.github.brijframework/brijframework-boot -->
 		<dependency>
-			<groupId>io.github.brijframework</groupId>
-			<artifactId>brijframework-bean</artifactId>
-			<version>1.0.1</version>
+		  <groupId>io.github.github-brijframework</groupId>
+		  <artifactId>github-brijframework-bean</artifactId>
+		  <version>1.1</version>
 		</dependency>
 
 
