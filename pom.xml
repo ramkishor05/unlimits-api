@@ -60,6 +60,7 @@
 
 		<module>unlimits-forms</module>
 
+		<module>unlimits-integration</module>
 	</modules>
 
 	<dependencies>
@@ -124,12 +125,6 @@
 				<groupId>org.springframework.boot</groupId>
 
 				<artifactId>spring-boot-maven-plugin</artifactId>
-
-				<configuration>
-
-					<mainClass>com.brijframework.main.App</mainClass>
-
-				</configuration>
 
 			</plugin>
 

@@ -1,0 +1,13 @@
+version: "2"
+authtoken: 2bivPjeVFH3aOwDP5sK21pfoHtH_5r77NqHn3kRGNyYrW6ut1
+tunnels:
+  gateway:
+    addr: 8080
+    proto: http
+  auth:
+    addr: 3333
+    proto: http
+    domain: hardy-wasp-climbing.ngrok-free.app    
+  content:
+    addr: 5555
+    proto: http
