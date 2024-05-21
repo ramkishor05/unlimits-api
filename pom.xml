@@ -31,6 +31,7 @@
 		<module>unlimits-content</module>
 		<module>unlimits-forms</module>
 		<module>unlimits-integration</module>
+		<module>unlimits-client</module>
 	</modules>
 	<dependencies>
 		<dependency>
