@@ -25,6 +25,7 @@
 		<spring-cloud.version>2023.0.1</spring-cloud.version>
 	</properties>
 	<modules>
+		<module>unlimits-rest</module>
 		<module>unlimits-server</module>
 		<module>unlimits-gateway</module>
 		<module>unlimits-auth</module>
