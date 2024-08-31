@@ -64,6 +64,8 @@
     <module>unlimits-client</module>
     	  
     <module>unlimits_resources</module>
+    
+    <module>unlimits-docs</module>
       
   </modules>
   	
